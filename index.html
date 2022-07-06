@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rachel Jiang</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
+    <script
+      src="https://kit.fontawesome.com/da74f251be.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <link id="theme-style" rel="stylesheet" type="text/css" href="" />
+  </head>
+  <body>
+    <!-- we got four main containers -->
+    <div class="box">
+      <section class="s1">
+        <div class="main-container">
+          <div class="greeting-wrapper">
+            <h1 class="gradient-text">Hi,everyone. I'm Rachel</h1>
+          </div>
+
+          <div class="intro-wrapper">
+            <div class="left-column">
+              <img id="profile_pic" src="images/me.jpg" />
+              <!-- <h5 style="text-align: center; line-height: 0">
+              Personalize Theme
+            </h5> -->
+
+              <div id="theme-options-wrapper">
+                <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                <div
+                  data-mode="purple"
+                  id="purple-mode"
+                  class="theme-dot"
+                ></div>
+              </div>
+            </div>
+
+            <div class="right-column">
+              <div id="preview-shadow">
+                <div id="preview">
+                  <div id="corner-tl" class="corner"></div>
+                  <div id="corner-tr" class="corner"></div>
+                  <div class="starArea">
+                    <img class="star1" src="./images/star.svg" alt="star" />
+                    <h3>What I Do</h3>
+                    <img class="star2" src="./images/star.svg" alt="star" />
+                  </div>
+
+                  <p>
+                    I am a web developer based in Toronto. I have two years of
+                    experience in developing user interfaces. Outside of coding,
+                    I spend most of my time learning procreate and painting with
+                    ipad...
+                  </p>
+                  <div id="corner-br" class="corner"></div>
+                  <div id="corner-bl" class="corner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="paintings">
+        <div class="starArea" id="painting-heading">
+          <img class="star1" src="./images/star.svg" alt="star" />
+          <h3>Some of my ipad(procreate) paintings</h3>
+          <img class="star2" src="./images/star.svg" alt="star" />
+        </div>
+        <ul class="painting-box">
+          <li><img class="food" src="./images/food.jpg" alt="food" /></li>
+          <li><img class="tree" src="./images/tree.jpg" alt="tree" /></li>
+          <li><img class="boat" src="./images/boat.jpg" alt="boat" /></li>
+        </ul>
+      </section>
+
+      <section class="s2">
+        <div class="main-container">
+          <div class="about-wrapper">
+            <div class="about-me">
+              <div class="starArea" id="more-heading">
+                <img class="star1" src="./images/star.svg" alt="star" />
+                <h3>Top Expertise</h3>
+                <img class="star2" src="./images/star.svg" alt="star" />
+              </div>
+              <p class="resume">
+                Web developer with primary focus on React:
+                <a target="_blank" href="resume.pdf">Download Resume</a>
+              </p>
+
+              <div id="skills">
+                <ul>
+                  <li>JavaScript</li>
+                  <li>React(Next.js)</li>
+                  <li>Typescript</li>
+                  <li>Tailwind CSS</li>
+                  <li>Node.js</li>
+                </ul>
+
+                <ul>
+                  <li>REST API</li>
+                  <li>Github/Git</li>
+                  <li>SQL</li>
+                  <li>HTML/CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s1">
+        <div class="main-container">
+          <div class="starArea" id="contactStar">
+            <img class="star1" src="./images/star.svg" alt="star" />
+            <h3>Projects</h3>
+            <img class="star2" src="./images/star.svg" alt="star" />
+          </div>
+
+          <div class="post-wrapper">
+            <div>
+              <div class="post">
+                <img class="thumbnail" src="images/podcast.png" />
+                <div class="post-preview">
+                  <h6 class="post-title">Podcast Suggestion App</h6>
+                  <p class="post-intro">
+                    A podcast app which suggests a lists of podcasts based on
+                    the length of your journey.Built with React, SASS, firebase
+                    and google Oauth.
+                  </p>
+                  <div class="project-links">
+                    <a
+                      href="https://podcastprioritizer.github.io/podcastprioritizer/"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/PodcastPrioritizer/podcastprioritizer"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="post">
+                <img
+                  class="thumbnail"
+                  src="images/rachel_dashboard_light.png"
+                />
+                <div class="post-preview">
+                  <h6 class="post-title">React Admin Dashboard</h6>
+                  <p class="post-intro">
+                    a react admin dashboard built with hooks,context,
+                    react-big-calendar, react chartjs and tailwind css, which
+                    allows users to generate charts, get notifications from
+                    customers, store employees info...
+                  </p>
+                  <div class="project-links">
+                    <a href="https://rachel-dashboard.netlify.app/">Live</a>
+                    <a href="https://github.com/Racheljjn/admin-dashboard"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="post">
+                <img class="thumbnail" src="images/e-commerce-img.png" />
+                <div class="post-preview">
+                  <h6 class="post-title">E-commerce Website</h6>
+                  <p class="post-intro">
+                    A fully functional eCommerce application(work-in-progress)
+                    built with React, React Routers, Material-ui and Stripe for
+                    payment
+                  </p>
+                  <div class="project-links">
+                    <!-- <a href="https://rachel-dashboard.netlify.app/">Live</a> -->
+                    <a href="https://github.com/Racheljjn/e-commerce">Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s2">
+        <div class="main-container">
+          <a href=""></a>
+          <div class=""></div>
+          <div class="starArea" id="contactStar">
+            <img class="star1" src="./images/star.svg" alt="star" />
+            <h3>Get In Touch</h3>
+            <img class="star2" src="./images/star.svg" alt="star" />
+          </div>
+          <div class="helloBox">
+            <p>Want to work together or have any questions?</p>
+            <div class="helloBtn">
+              <a href="mailto: jianijiang1119@gmail.com">Say Hi👋</a>
+            </div>
+          </div>
+          <ul class="contact">
+            <li><a href="https://github.com/Racheljjn">Github</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/rachel-jiang-wlu/"
+                >Linkedin</a
+              >
+            </li>
+            <li><a href="./resume.PDF">Resume</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="copyright"><p>© 2022 Rachel Jiang</p></section>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
