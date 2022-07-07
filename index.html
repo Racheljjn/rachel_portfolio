@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Rachel Jiang</title>
-
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
@@ -28,61 +27,55 @@
   <body>
     <!-- we got four main containers -->
     <div class="box">
-      <section class="s1">
+      <section class="s1 hero">
         <div class="main-container">
           <div class="greeting-wrapper">
             <h1 class="gradient-text">Hi,everyone. I'm Rachel</h1>
           </div>
 
           <div class="intro-wrapper">
-            <div class="left-column">
-              <img id="profile_pic" src="images/me.jpg" />
-              <!-- <h5 style="text-align: center; line-height: 0">
-              Personalize Theme
-            </h5> -->
-
-              <div id="theme-options-wrapper">
-                <div data-mode="light" id="light-mode" class="theme-dot"></div>
-                <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-                <div data-mode="green" id="green-mode" class="theme-dot"></div>
-                <div
-                  data-mode="purple"
-                  id="purple-mode"
-                  class="theme-dot"
-                ></div>
-              </div>
+            <div class="toggle">
+              <label class="switch" for="checkbox">
+                <input type="checkbox" id="checkbox" data-mode="dark" />
+                <div class="slider round"></div>
+              </label>
             </div>
+            <div class="intro-text">
+              <div class="left-column">
+                <img id="profile_pic" src="images/me.jpg" />
+              </div>
 
-            <div class="right-column">
-              <div id="preview-shadow">
-                <div id="preview">
-                  <div id="corner-tl" class="corner"></div>
-                  <div id="corner-tr" class="corner"></div>
-                  <div class="starArea">
-                    <img class="star1" src="./images/star.svg" alt="star" />
-                    <h3>What I Do</h3>
-                    <img class="star2" src="./images/star.svg" alt="star" />
+              <div class="right-column">
+                <div id="preview-shadow">
+                  <div id="preview">
+                    <div id="corner-tl" class="corner"></div>
+                    <div id="corner-tr" class="corner"></div>
+                    <div class="starArea" id="whatIDo">
+                      <i class="fa fa-solid fa-star"></i>
+                      <h3 >What I Do</h3>
+                      <i class="fa fa-solid fa-star"></i>
+                    </div>
+
+                    <p>
+                      I am a web developer based in Toronto. I have two years of
+                      experience in developing user interfaces. Outside of
+                      coding, I spend most of my time learning procreate and
+                      painting with ipad...
+                    </p>
+                    <div id="corner-br" class="corner"></div>
+                    <div id="corner-bl" class="corner"></div>
                   </div>
-
-                  <p>
-                    I am a web developer based in Toronto. I have two years of
-                    experience in developing user interfaces. Outside of coding,
-                    I spend most of my time learning procreate and painting with
-                    ipad...
-                  </p>
-                  <div id="corner-br" class="corner"></div>
-                  <div id="corner-bl" class="corner"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="paintings">
+      <section class="paintings s1">
         <div class="starArea" id="painting-heading">
-          <img class="star1" src="./images/star.svg" alt="star" />
+          <i class="fa fa-solid fa-star"></i>
           <h3>Some of my ipad(procreate) paintings</h3>
-          <img class="star2" src="./images/star.svg" alt="star" />
+          <i class="fa fa-solid fa-star"></i>
         </div>
         <ul class="painting-box">
           <li><img class="food" src="./images/food.jpg" alt="food" /></li>
@@ -96,9 +89,9 @@
           <div class="about-wrapper">
             <div class="about-me">
               <div class="starArea" id="more-heading">
-                <img class="star1" src="./images/star.svg" alt="star" />
+                <i class="fa fa-solid fa-star"></i>
                 <h3>Top Expertise</h3>
-                <img class="star2" src="./images/star.svg" alt="star" />
+                <i class="fa fa-solid fa-star"></i>
               </div>
               <p class="resume">
                 Web developer with primary focus on React:
@@ -129,9 +122,9 @@
       <section class="s1">
         <div class="main-container">
           <div class="starArea" id="contactStar">
-            <img class="star1" src="./images/star.svg" alt="star" />
+            <i class="fa fa-solid fa-star"></i>
             <h3>Projects</h3>
-            <img class="star2" src="./images/star.svg" alt="star" />
+            <i class="fa fa-solid fa-star"></i>
           </div>
 
           <div class="post-wrapper">
@@ -142,7 +135,7 @@
                   <h6 class="post-title">Podcast Suggestion App</h6>
                   <p class="post-intro">
                     A podcast app which suggests a lists of podcasts based on
-                    the length of your journey.Built with React, SASS, firebase
+                    the length of your journey, built with React, SASS, firebase
                     and google Oauth.
                   </p>
                   <div class="project-links">
@@ -168,7 +161,7 @@
                 <div class="post-preview">
                   <h6 class="post-title">React Admin Dashboard</h6>
                   <p class="post-intro">
-                    a react admin dashboard built with hooks,context,
+                    A react admin dashboard built with hooks,context,
                     react-big-calendar, react chartjs and tailwind css, which
                     allows users to generate charts, get notifications from
                     customers, store employees info...
@@ -209,9 +202,9 @@
           <a href=""></a>
           <div class=""></div>
           <div class="starArea" id="contactStar">
-            <img class="star1" src="./images/star.svg" alt="star" />
+            <i class="fa fa-solid fa-star"></i>
             <h3>Get In Touch</h3>
-            <img class="star2" src="./images/star.svg" alt="star" />
+            <i class="fa fa-solid fa-star"></i>
           </div>
           <div class="helloBox">
             <p>Want to work together or have any questions?</p>
@@ -230,7 +223,7 @@
           </ul>
         </div>
       </section>
-      <section class="copyright"><p>© 2022 Rachel Jiang</p></section>
+      <section class="copyright s1"><p>© 2022 Rachel Jiang</p></section>
     </div>
     <script type="text/javascript" src="script.js"></script>
   </body>
